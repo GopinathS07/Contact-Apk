@@ -117,19 +117,19 @@ form .inputField > div input{
             width: 100%;
         }
         form .inputField > div label{
-            font-size: 20px;
+            font-size: 14px;
             font-weight: 500;
         }     
         #readData form .inputField > div input{
-            font-size: 18px;
+            font-size: 14px;
         }
         .upload i{
             color: #fff;
-            font-size: 18px;
+            font-size: 14px;
         }
         .modal-body form .imgholder{
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
         }
       }
 @media (max-width: 700px) {
@@ -147,18 +147,18 @@ form .inputField > div input{
             height: 100%;
         }
         form .inputField > div label{
-            font-size: 15px;
+            font-size: 10px;
             font-weight: 500;
         }     
         #readData form .inputField > div input{
-            font-size: 18px;
+            font-size: 10px;
         }
         .upload i{
             color: #fff;
-            font-size: 15px;
+            font-size: 10px;
         }
         .modal-body form .imgholder{
-            width: 100px;
-            height: 100px;
+            width: 500px;
+            height: 50px;
         }
     }
