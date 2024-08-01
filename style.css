@@ -124,7 +124,7 @@ form .inputField > div input{
       }
       @media (max-width: 480px) {
         .table {
-          font-size: 8px; /* Adjust font size for small screens */
+          font-size: 10px; /* Adjust font size for small screens */
         }
 
         .table th,
