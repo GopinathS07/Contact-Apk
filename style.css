@@ -10,7 +10,7 @@ td button i{
     font-size: 20px;
 }
 body{
-    background-image: url(https://img.freepik.com/free-vector/abstract-transparent-overlay-background-with-geometric-shape_1017-42843.jpg?t=st=1720604661~exp=1720608261~hmac=24eb2c6296d5b26ba0637e4424b9cc98f49fcdac261eca8a5e3ad5d15a15b14d&w=996);
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8728.jpg);
     background-repeat: no-repeat;
     background-size: 100vw;
 }
@@ -106,3 +106,34 @@ form .inputField > div input{
     color: #000;
     font-size: 18px;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+        .table {
+          font-size: 14px; /* Adjust font size for small screens */
+        }
+
+        .table th,
+        .table td {
+          padding: 0.5rem; /* Adjust padding for small screens */
+        }
+        body {
+            background-image: url(https://4kwallpapers.com/images/wallpapers/3d-background-glass-light-abstract-background-blue-1280x1280-8728.jpg);
+            background-size:50em;
+            width: 100%;
+        }
+      }
+      @media (max-width: 480px) {
+        .table {
+          font-size: 10px; /* Adjust font size for small screens */
+        }
+
+        .table th,
+        .table td {
+          padding: 0.5rem; /* Adjust padding for small screens */
+        }
+        body {
+            background-image: url(https://4kwallpapers.com/images/wallpapers/3d-background-glass-light-abstract-background-blue-1080x2160-8728.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+        }
