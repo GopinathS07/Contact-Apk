@@ -111,7 +111,6 @@ form .inputField > div input{
         .table {
           font-size: 14px; /* Adjust font size for small screens */
         }
-
         .table th,
         .table td {
           padding: 0.5rem; /* Adjust padding for small screens */
@@ -121,12 +120,26 @@ form .inputField > div input{
             background-size:50em;
             width: 100%;
         }
+        form .inputField > div label{
+            font-size: 20px;
+            font-weight: 500;
+        }     
+        #readData form .inputField > div input{
+            font-size: 18px;
+        }
+        .upload i{
+            color: #fff;
+            font-size: 18px;
+        }
+        .modal-body form .imgholder{
+            width: 150px;
+            height: 150px;
+        }
       }
-      @media (max-width: 480px) {
+@media (max-width: 700px) {
         .table {
           font-size: 10px; /* Adjust font size for small screens */
         }
-
         .table th,
         .table td {
           padding: 0.5rem; /* Adjust padding for small screens */
@@ -137,4 +150,19 @@ form .inputField > div input{
             width: 100%;
             height: 100%;
         }
-      }
+        form .inputField > div label{
+            font-size: 15px;
+            font-weight: 500;
+        }     
+        #readData form .inputField > div input{
+            font-size: 18px;
+        }
+        .upload i{
+            color: #fff;
+            font-size: 15px;
+        }
+        .modal-body form .imgholder{
+            width: 100px;
+            height: 100px;
+        }
+    }
