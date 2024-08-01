@@ -14,12 +14,8 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw;
 }
-:root{
-    --primary-color:#ffa7f6;
-}
-
 .modal-header{
-    background: #ffa7f6;
+    background: #60c5ef;
     color: #fff;
 }
 
