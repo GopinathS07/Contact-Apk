@@ -128,8 +128,8 @@ form .inputField > div input{
             font-size: 14px;
         }
         .modal-body form .imgholder{
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
         }
       }
 @media (max-width: 700px) {
@@ -158,7 +158,7 @@ form .inputField > div input{
             font-size: 10px;
         }
         .modal-body form .imgholder{
-            width: 500px;
-            height: 50px;
+            width: 100px;
+            height: 100px;
         }
     }
