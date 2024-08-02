@@ -15,7 +15,7 @@ body{
     background-size:110em;
 }
 .modal-header{
-    background: #60c5ef;
+    background: #7ba0ff;
     color: #fff;
 }
 
@@ -130,6 +130,13 @@ form .inputField > div input{
         width: 130px;
         height: 130px;
     }
+    .img{
+        width: 100%;
+        height: 100%;
+    }
+    .imgholder .upload{
+        height: 50px;
+    }
 }
 @media (max-width: 700px) {
         .table {
@@ -156,5 +163,12 @@ form .inputField > div input{
         .modal-body form .imgholder{
             width: 120px;
             height: 120px;
+        }
+    .img{
+            width: 100%;
+            height: 100%;
+        }
+        .imgholder .upload{
+            height: 30px;
         }
     }
