@@ -24,7 +24,7 @@ newUserBtn.addEventListener('click', ()=> {
     submitBtn.innerText = 'Submit',
     modalTitle.innerText = "Fill the Form"
     isEdit = false
-    imgInput.src = "./image/Profile.png"
+    imgInput.src = "https://img.freepik.com/premium-photo/photo-icon-with-man-blue-background-3d-rendering_567294-402.jpg?w=360"
     form.reset()
 })
 
