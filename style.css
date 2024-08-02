@@ -12,7 +12,7 @@ td button i{
 body{
     background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8728.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size:110em;
 }
 .modal-header{
     background: #60c5ef;
@@ -102,36 +102,35 @@ form .inputField > div input{
     color: #000;
     font-size: 18px;
 }
-
-@media (min-width: 481px) and (max-width: 767px) {
-        .table {
-          font-size: 14px; /* Adjust font size for small screens */
-        }
-        .table th,
-        .table td {
-          padding: 0.5rem; /* Adjust padding for small screens */
-        }
-        body {
-            background-image: url(https://4kwallpapers.com/images/wallpapers/3d-background-glass-light-abstract-background-blue-1280x1280-8728.jpg);
-            background-size:50em;
-            width: 100%;
-        }
-        form .inputField > div label{
-            font-size: 14px;
-            font-weight: 500;
+@media (min-width: 481px) and (max-width: 992px) {
+    .table {
+        font-size: 14px; /* Adjust font size for small screens */
+    }
+    .table th,
+    .table td {
+        padding: 0.5rem; /* Adjust padding for small screens */
+    }
+    body {
+        background-image: url(https://4kwallpapers.com/images/wallpapers/3d-background-glass-light-abstract-background-blue-1280x1280-8728.jpg);
+        background-size:60em;
+        width: 100%;
+    }
+    form .inputField > div label{
+        font-size: 20px;
+        font-weight: 500;
         }     
-        #readData form .inputField > div input{
-            font-size: 14px;
+    #readData form .inputField > div input{
+        font-size: 18px;
         }
-        .upload i{
-            color: #fff;
-            font-size: 14px;
+    .upload i{
+        color: #fff;
+        font-size: 18px;
         }
-        .modal-body form .imgholder{
-            width: 150px;
-            height: 150px;
-        }
-      }
+    .modal-body form .imgholder{
+        width: 130px;
+        height: 130px;
+    }
+}
 @media (max-width: 700px) {
         .table {
           font-size: 10px; /* Adjust font size for small screens */
@@ -142,23 +141,20 @@ form .inputField > div input{
         }
         body {
             background-image: url(https://4kwallpapers.com/images/wallpapers/3d-background-glass-light-abstract-background-blue-1080x2160-8728.jpg);
-            background-size: cover;
-            width: 100%;
-            height: 100%;
         }
         form .inputField > div label{
-            font-size: 10px;
+            font-size: 15px;
             font-weight: 500;
         }     
         #readData form .inputField > div input{
-            font-size: 10px;
+            font-size: 18px;
         }
         .upload i{
             color: #fff;
-            font-size: 10px;
+            font-size: 15px;
         }
         .modal-body form .imgholder{
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
         }
     }
